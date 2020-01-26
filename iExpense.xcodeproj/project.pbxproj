@@ -13,6 +13,7 @@
 		03641D3D23DD76ED009E9888 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03641D3C23DD76ED009E9888 /* Assets.xcassets */; };
 		03641D4023DD76ED009E9888 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03641D3F23DD76ED009E9888 /* Preview Assets.xcassets */; };
 		03641D4323DD76ED009E9888 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03641D4123DD76ED009E9888 /* LaunchScreen.storyboard */; };
+		03641D4C23DD9398009E9888 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03641D4B23DD9398009E9888 /* ExpenseItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		03641D3F23DD76ED009E9888 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		03641D4223DD76ED009E9888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03641D4423DD76ED009E9888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03641D4B23DD9398009E9888 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		03641D3523DD76EB009E9888 /* iExpense */ = {
 			isa = PBXGroup;
 			children = (
+				03641D4A23DD937C009E9888 /* CodableModels */,
 				03641D3623DD76EB009E9888 /* AppDelegate.swift */,
 				03641D3823DD76EB009E9888 /* SceneDelegate.swift */,
 				03641D3A23DD76EB009E9888 /* ContentView.swift */,
@@ -73,6 +76,14 @@
 				03641D3F23DD76ED009E9888 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		03641D4A23DD937C009E9888 /* CodableModels */ = {
+			isa = PBXGroup;
+			children = (
+				03641D4B23DD9398009E9888 /* ExpenseItem.swift */,
+			);
+			path = CodableModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 				03641D3723DD76EB009E9888 /* AppDelegate.swift in Sources */,
 				03641D3923DD76EB009E9888 /* SceneDelegate.swift in Sources */,
 				03641D3B23DD76EB009E9888 /* ContentView.swift in Sources */,
+				03641D4C23DD9398009E9888 /* ExpenseItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
