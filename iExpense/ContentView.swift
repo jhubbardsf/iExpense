@@ -24,6 +24,18 @@ class Expenses: ObservableObject {
             }
         }
     }
+    
+    init() {
+        if let items = UserDefaults.standard.data(forKey: "Items") {
+            let decoder = JSONDecoder()
+            if let decoded = try? decoder.decode([ExpenseItem].self, from: items) {
+                self.items = decoded
+                return
+            }
+        }
+
+        self.items = []
+    }
 }
 
 struct ContentView: View {
